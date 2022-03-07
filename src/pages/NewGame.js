@@ -65,7 +65,7 @@ export default function Customer () {
         <Title>Quantidade total do estoque</Title>
         <Input value={stockTotal} onChange={e => setStockTotal(e.target.value)} type="number" />
 
-        <Button>Salvar Categoria</Button>
+        <Button>Salvar Jogo</Button>
       </form>
     </PageContainer>
   )
